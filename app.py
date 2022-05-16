@@ -43,7 +43,7 @@ def inference():
 
 def app():
     st.header("🗣  Automatic Speech Recognition 🔡")
-    st.markdown("Speech2Text using Facebook's Wav2Vec2.")
+    st.markdown("Speech2Text using Facebook's Wav2Vec.")
     def in_recorder_factory() -> MediaRecorder:
         return MediaRecorder(
             "input.wav", format="wav"
